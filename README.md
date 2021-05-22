@@ -7,7 +7,7 @@
 </p>
 
 
-# lisence
+# license
 [![CC0](https://static.copyrighted.com/badges/125x75/02.png)](https://aditya-verma.adityavermareal.repl.co/assets/images/copyrighted.jpg?url=https%3A%2F%2Faditya-verma.adityavermareal.repl.co%2Fworks.html)
 
 To the extent possible under law, [Aditya Verma](https://website.adityavermareal.repl.co/index.html) has all copyright and related or neighboring rights to this work.
