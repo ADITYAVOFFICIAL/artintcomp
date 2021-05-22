@@ -1,2 +1,2 @@
 # CS art integration project by aditya verma
- python code file named as csartint.py
+# The python code file is named as csartint.py
