@@ -1,14 +1,19 @@
+# importing random module
 import random
+# greeting the reader
 print("Hello reader")
+# Obtaining the the name of the reader
 readername = input("What is your name? ")
+# printing the name of the reader
 print("Hello "+readername)
-names = ["Aditya", "Harsh", "Kamal", "Dipayan", "Dhruv"]
+# creating some lists for our story
+names = ["Aditya", "Harsh", "Kamal", "Dipayan", "Dhruv"]  # contains names
 roles = ["Chemical Engineer", "Mechanical Engineer",
-         "Electrical Engineer", "Software Engineer", "Aeronautical engineer"]
-places = ["Mumbai, India", "Delhi, India",
-          "Kolkata, India", "Patna, India", "Chennai, India"]
+         "Electrical Engineer", "Software Engineer", "Aeronautical engineer"]  # contains roles or jobs
+# producing a random value from the list names
 randomname = random.choice(names)
-randomplaces = random.choice(places)
+# producing a random value from the list roles
 randomrole = random.choice(roles)
+# printing the final story
 print(
-    f'Once upon a time there was a {randomrole} whose name was {randomname} who lived in {randomplaces}')
+    f'Once upon a time, there was a {randomrole} whose name was {randomname}')
