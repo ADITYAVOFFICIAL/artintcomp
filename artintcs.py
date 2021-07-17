@@ -36,7 +36,7 @@ else:
 now = datetime.datetime.now()
 print(now.strftime("%Y-%m-%d %H:%M:%S"))
 print()
-print("WELCOME TO WINDOWS 7")
+print("WELCOME TO WINDOWS 11")
 print(
     "----------------------------------------------------------------------------------------------------------------------")
 print("----------------------------------------------------------------------------------------------------------------------")
@@ -45,7 +45,7 @@ print("SECOND PROGRAM NOW EXECUTING")
 print("----WELCOME TO THE TESLA PROGRAM----")
 print('----CREATED BY ADITYA VERMA----')
 print()
-age = int(input('Enter your age here ---->>>    '))
+age = abs(int(input('Enter your age here ---->>>    ')))
 if age < 17 or age == 17:
     print('You can\'t drive now buddy!!---TESLA SHUTTING DOWN')
 elif age > 17:
@@ -53,7 +53,7 @@ elif age > 17:
     if lis == "yes" or lis == "Yes" or lis == "YES":
         print('You can drive a car! Congrats....')
         hash = random.getrandbits(128)
-        print("athunecation key is: %032x" % hash)
+        print("athunecation key validated: %032x" % hash)
         print()
         print("KEY ACCEPTED")
         print("Your Tesla is staring now....")
@@ -83,7 +83,8 @@ print("Hello "+readername)
 
 # creating some lists for our story
 
-names = ["Aditya", "Harsh", "Kamal", "Dipayan", "Dhruv"]  # contains names
+names = ["Aditya Verma", "Harsh", "Kamal",
+         "Dipayan", "Dhruv"]  # contains names
 roles = ["Chemical Engineer", "Mechanical Engineer",
          "Electrical Engineer", "Software Engineer", "Aeronautical engineer"]  # contains roles or jobs
 city = ["Mumbai", "New York", "Delhi", "Tokyo", "Berlin"]
@@ -103,8 +104,3 @@ randomcity = random.choice(city)
 
 print(
     f'Once upon a time, there was a {randomrole} whose name was {randomname} who lived in {randomcity} with his friends and family.')
-print("-----------------------------------------CREATED BY ADITYA VERMA-----------------------------------------------------------------------")
-print("-----------------------------------------CREATED BY ADITYA VERMA-----------------------------------------------------------------------")
-print("-----------------------------------------CREATED BY ADITYA VERMA-----------------------------------------------------------------------")
-print("-----------------------------------------CREATED BY ADITYA VERMA-----------------------------------------------------------------------")
-print("-----------------------------------------CREATED BY ADITYA VERMA-----------------------------------------------------------------------")
